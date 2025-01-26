@@ -14,6 +14,15 @@ laravel new app
   [jetstream] Laravel Jetstream
  > breeze
 breeze
+Would you like dark mode support? (yes/no) [no]:
+ >
+
+
+ Which testing framework do you prefer? [Pest]:
+  [0] Pest
+  [1] PHPUnit
+ > 0
+0
 php artisan serve // route
 php artisan route:list //show all routing
 php artisan route:list --except-vendor //show route 
