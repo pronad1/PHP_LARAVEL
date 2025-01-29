@@ -32,3 +32,12 @@ php artisan config:clear
 php artisan cache:clear
 php artisan view:clear
 
+
+ php artisan tinke
+Psy Shell v0.12.7 (PHP 8.2.12 — cli) by Justin Hileman
+> $user=new App\Models\User;
+= App\Models\User {#6196}
+> $user->password='password'
+= "password"
+> $user->password
+= "$2y$12$SzlJ2DoMEJBAW6FRrrjhHObYPGVK.rXy4rINz17f/IhUiSEIiXBfi"
