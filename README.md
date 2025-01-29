@@ -25,4 +25,10 @@ Would you like dark mode support? (yes/no) [no]:
 0
 php artisan serve // route
 php artisan route:list //show all routing
-php artisan route:list --except-vendor //show route 
+php artisan route:list --except-vendor //show route
+
+
+php artisan config:clear
+php artisan cache:clear
+php artisan view:clear
+
