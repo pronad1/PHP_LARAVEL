@@ -41,3 +41,18 @@ Psy Shell v0.12.7 (PHP 8.2.12 — cli) by Justin Hileman
 = "password"
 > $user->password
 = "$2y$12$SzlJ2DoMEJBAW6FRrrjhHObYPGVK.rXy4rINz17f/IhUiSEIiXBfi"
+
+
+
+ php artisan make:policy
+
+  What should the policy be named?
+❯ JobPolicy
+
+  What model should this policy apply to? (Optional):
+❯ Job
+Job
+
+   INFO  Policy [D:\Languages\Learn-Laravel\pro\app\Policies\JobPolicy.php] created successfully.  
+
+PS D:\Languages\Learn-Laravel\pro> 
