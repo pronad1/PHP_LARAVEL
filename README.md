@@ -56,3 +56,11 @@ Job
    INFO  Policy [D:\Languages\Learn-Laravel\pro\app\Policies\JobPolicy.php] created successfully.  
 
 PS D:\Languages\Learn-Laravel\pro> 
+
+
+PS D:\Languages\Learn-Laravel\pro> php artisan queue:work
+
+   INFO  Processing jobs from the [default] queue.
+
+  2025-02-05 18:54:50 App\Mail\JobPosted .......................................... RUNNING
+  2025-02-05 18:54:57 App\Mail\JobPosted
