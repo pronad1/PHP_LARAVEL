@@ -64,3 +64,15 @@ PS D:\Languages\Learn-Laravel\pro> php artisan queue:work
 
   2025-02-05 18:54:50 App\Mail\JobPosted .......................................... RUNNING
   2025-02-05 18:54:57 App\Mail\JobPosted
+
+
+node -v
+
+npm -v
+
+npm install
+
+npm run dev
+
+npm run build
+
