@@ -26,6 +26,10 @@ Would you like dark mode support? (yes/no) [no]:
 php artisan serve // route
 php artisan route:list //show all routing
 php artisan route:list --except-vendor //show route
+```
+Create database Table
+```
+php artisan migrate
 
 
 php artisan config:clear
