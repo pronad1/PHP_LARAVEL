@@ -115,3 +115,7 @@ Testing a Unit
   Unit ......................................................... unit  
 ❯ unit
 unit
+```
+Now show the testing result
+```
+php artisan test
