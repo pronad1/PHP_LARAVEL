@@ -79,4 +79,15 @@ npm install
 npm run dev
 
 npm run build
+```
+Create a new table
+```
+php artisan make:migration 'table name'
+
+ php artisan migrate
+
+```
+Rename table
+```
+php artisan migrate:fresh
 
