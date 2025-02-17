@@ -95,3 +95,9 @@ php artisan migrate:fresh
 For creating any help
 ```
 php artisan help 'make:Model' or 'anything'
+
+```
+Create more files at a time
+```
+php artisan make:model Employer -cfs --policy
+Here c(controller), f(factory), s(seeder)
