@@ -91,3 +91,7 @@ Rename table
 ```
 php artisan migrate:fresh
 
+```
+For creating any help
+```
+php artisan help 'make:Model' or 'anything'
