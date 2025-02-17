@@ -101,3 +101,17 @@ Create more files at a time
 ```
 php artisan make:model Employer -cfs --policy
 Here c(controller), f(factory), s(seeder)
+
+```
+Testing a Unit
+```
+ php artisan make:test
+
+  What should the test be named?
+❯ JobTest
+
+  Which type of test would you like?
+  Feature ................................................... feature  
+  Unit ......................................................... unit  
+❯ unit
+unit
